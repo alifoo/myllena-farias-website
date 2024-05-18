@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'LTRemark';
+    src: url('./fonts/LTRemark.otf') format('opentype');
+}
+  
+@font-face {
+font-family: 'LTInstitute';
+src: url('./fonts/LTInstitute.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "DTGetaiGrotesk";
+    src: url('./fonts/DTGetaiGroteskDisplay-Black.otf') format('opentype');
+}
