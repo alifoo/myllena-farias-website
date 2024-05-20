@@ -5,23 +5,29 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .main-presentation-text {
   font-family: 'Solide Mirage';
 }
 
 .main-nav-link {
   @apply mr-auto text-xl font-sans text-zinc-300 font-SatoshiBold;
-  text-decoration: none;
 }
 
 .nav-link {
   @apply mx-4 text-base font-sans text-zinc-300 font-LTInstitute font-SatoshiMedium;
-  text-decoration: none;
+}
+
+.nav-link-footer {
+  @apply text-base font-sans text-zinc-300 font-LTInstitute font-SatoshiMedium;
+}
+
+.main-nav-link-footer {
+  @apply text-base font-sans text-zinc-300 font-LTInstitute font-SatoshiMedium;
 }
 
 .nav-link:visited {
   @apply text-zinc-300 font-LTInstitute font-SatoshiMedium;;
-  text-decoration: none;
 }
 
 html, body, #root {

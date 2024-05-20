@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header'
 import Presentation from './components/Presentation'
 import Video from './components/Video'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Presentation />
         <Video>
         </Video>
+        <Footer />
       </div>
     </>
   )
